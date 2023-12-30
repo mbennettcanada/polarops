@@ -1,0 +1,34 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+env:
+  CI: false
+permissions:
+  id-token: write
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  
+  build_and_deploy:
+    name: Build frontend, deploy to s3, clear cache
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set Node.js 20
+        uses: actions/setup-node@v1
+        with:
+          version: 20.x
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@master
+        with:
+          role-to-assume: arn:aws:iam::906948391283:role/github-actions
+          aws-region: us-west-2
+      - name: Deploy Build
+        run: |
+          npm install        
+          cd infra && cdk deploy PolaropsStack --require-approval never

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ae6e7f6c.css",
+    "main.js": "/static/js/main.3d39af8f.js",
+    "static/js/787.7f56246c.chunk.js": "/static/js/787.7f56246c.chunk.js",
+    "static/media/aurora.jpg": "/static/media/aurora.fe92f83717246c07f7c6.jpg",
+    "static/media/AdvancedNetwork.png": "/static/media/AdvancedNetwork.da7452e6ede6f01440c3.png",
+    "index.html": "/index.html",
+    "main.ae6e7f6c.css.map": "/static/css/main.ae6e7f6c.css.map",
+    "main.3d39af8f.js.map": "/static/js/main.3d39af8f.js.map",
+    "787.7f56246c.chunk.js.map": "/static/js/787.7f56246c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae6e7f6c.css",
+    "static/js/main.3d39af8f.js"
+  ]
+}
