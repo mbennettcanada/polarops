@@ -518,7 +518,7 @@ function App() {
                     Want to work with us? 
                   </h4>
                   <p className="text-xl text-center">
-                  Shoot us an email: ceo[at]polarops.ca
+                  Shoot us an email: ceo@polarops.ca
                   </p>
                   {/* <form onSubmit={handleSubmit}>
                   <div className="relative w-full mb-3 mt-8">
