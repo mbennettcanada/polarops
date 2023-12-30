@@ -31,4 +31,4 @@ jobs:
       - name: Deploy Build
         run: |
           npm install        
-          cd infra && cdk deploy PolaropsStack --require-approval never
+          cd infra && npm install && npm run cdk deploy PolaropsStack --require-approval never
