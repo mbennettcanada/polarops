@@ -30,5 +30,8 @@ jobs:
           aws-region: us-west-2
       - name: Deploy Build
         run: |
-          npm install        
+          npm install
+          npm run build
+          npm run build-css       
           cd infra && npm install && npm run cdk deploy PolaropsStack --require-approval never
+          aws cloudfront create-invalidation --distribution-id EFGYV7CWL8FSW --paths "/*"
