@@ -39,7 +39,7 @@ function App() {
                   PolarOps Consulting
                 </h1>
                 <p className="mt-4 text-lg text-gray-300">
-                  We specialize in AWS cloud environment management and security. Whatever your team size or cloud footprint we can help you control and scale your environment securely and efficiently.
+                  We specialize in AWS cloud environment management, operations, and security. Our primary model is to come in to your organization and do an initial assessment of your environment, establish a roadmap for improvement, and execute that roadmap with your team. 
                 </p>
               </div>
             </div>
