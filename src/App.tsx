@@ -39,7 +39,7 @@ function App() {
                   PolarOps Consulting
                 </h1>
                 <p className="mt-4 text-lg text-gray-300">
-                  We specialize in AWS cloud environment management, operations, and security. Our primary model is to come in to your organization and do an initial assessment of your environment, establish a roadmap for improvement, and execute that roadmap with your team. 
+                  We specialize in AWS cloud environment management, operations, and security. Our primary model is to do an initial assessment of your environment, establish a roadmap for improvement, and execute that roadmap with your team. 
                 </p>
               </div>
             </div>
