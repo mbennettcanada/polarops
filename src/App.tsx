@@ -34,7 +34,7 @@ function App() {
         <div className="container relative mx-auto">
           <div className="items-center flex flex-wrap">
             <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-              <div className="pr-12">
+              <div className="text-center">
                 <h1 className="text-white font-semibold text-5xl">
                   PolarOps Consulting
                 </h1>
@@ -518,7 +518,7 @@ function App() {
                     Want to work with us? 
                   </h4>
                   <p className="text-xl text-center">
-                  Shoot us an email: ceo[at]polarops.ca
+                  Shoot us an email: ceo@polarops.ca
                   </p>
                   {/* <form onSubmit={handleSubmit}>
                   <div className="relative w-full mb-3 mt-8">
