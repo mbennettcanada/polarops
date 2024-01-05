@@ -34,7 +34,7 @@ function App() {
         <div className="container relative mx-auto">
           <div className="items-center flex flex-wrap">
             <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-              <div className="text-center">
+              <div className="pr-12 pl-12">
                 <h1 className="text-white font-semibold text-5xl">
                   PolarOps Consulting
                 </h1>
@@ -76,9 +76,9 @@ function App() {
                   <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
                     <i className="fas fa-award"></i>
                   </div>
-                  <h6 className="text-xl font-semibold">Cloud Architecture Review</h6>
+                  <h6 className="text-xl font-semibold">Cloud Architecture and Outcome Review</h6>
                   <p className="mt-2 mb-4 text-gray-600">
-                    Know what you have is running according to best practices in a secure, efficient manner. Discover gaps in configuration, possible cost savings.
+                    Know what you have is running according to best practices in a secure, efficient manner. Discover gaps in configuration, possible cost savings. Understand your goals and requirements
                   </p>
                 </div>
               </div>
@@ -94,7 +94,7 @@ function App() {
                     Roadmap for Growth
                   </h6>
                   <p className="mt-2 mb-4 text-gray-600">
-                    Develop a roadmap to acheive your goals around security compliance, speed of deployment and development, monitoring and alerting, or just simplicity of management.
+                    Develop a roadmap to acheive your goals. Get down to tasks and timelines and very real outcomes. Define who can complete tasks, who needs assistance completing a task, or who should shaddow us completing a task. Tightly engaging with your existing team is crucial for operational continuity. 
                   </p>
                 </div>
               </div>
@@ -126,7 +126,9 @@ function App() {
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
                 With over 10 years of running production workloads in the public cloud you can rest assured
-                we've seen a thing or two go sideways and know how to operate workloads at scale.
+                we've seen a thing or two go sideways and know how to operate workloads at scale. Our #1 goal is to 
+                share our experience with your organization and ensure smooth and efficient operation. 
+                
               </p>
               <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
                 AWS Certifications:
@@ -141,29 +143,29 @@ function App() {
             </div>
 
 
-            <div className="w-full md:w-4/12 px-4 mr-auto ml-auto row">
+            <div className="w-full md:w-5/12 px-4 mr-auto ml-auto row">
               <a href='https://www.credly.com/users/mark-bennett.04830eac/badges?sort=-state_updated_at&page=1'>
-                <div className="relative min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg flex flex-wrap">
+                <div className="relative min-w-0 break-words  w-full mb-6  rounded-lg flex flex-wrap">
 
                   <img
                     alt="..."
                     src={anbadge}
-                    className="flex w-2/4 h-2/4"
+                    className="flex mx-5 my-5 w-4/12 h-4/12"
                   />
                   <img
                     alt="..."
                     src={asbadge}
-                    className="flex w-2/4 h-2/4"
+                    className="flex mx-5 my-5 w-4/12 h-4/12"
                   />
                   <img
                     alt="..."
                     src={dobadge}
-                    className="flex w-2/4 h-2/4"
+                    className="flex mx-5 my-5 w-4/12 h-4/12"
                   />
                   <img
                     alt="..."
                     src={sabadge}
-                    className="flex w-2/4 h-2/4"
+                    className="flex mx-5 my-5 w-4/12 h-4/12"
                   />
 
                 </div>
@@ -460,7 +462,7 @@ function App() {
           <div className="flex flex-wrap text-center justify-center">
             <div className="w-full lg:w-6/12 px-4">
               <h2 className="text-4xl font-semibold text-white">
-                Build something
+                Build your team, cloud, and business
               </h2>
               <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
                 Whether you have apps that need migrating, a team that needs guidance and experience, or a high cloud bill, we can help you reach your objectives.
